@@ -90,8 +90,8 @@
       <AdditionalIncludeDirectories>$(SolutionDir)allegro_5.1.12_x86\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>$(SolutionDir)allegro_5.1.12_x86</AdditionalLibraryDirectories>
-      <AdditionalDependencies>allegro_acodec-debug.lib;allegro_image.lib;allegro_main.lib;allegro_video.lib;allegro-debug.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)allegro_5.1.12_x86\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>allegro_image.lib;allegro_main.lib;allegro_video.lib;allegro-debug.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>copy "$(SolutionDir)allegro_5.1.12_x86\bin" "$(OutDir)"</Command>
@@ -118,8 +118,8 @@
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>$(SolutionDir)allegro_5.1.12_x86</AdditionalLibraryDirectories>
-      <AdditionalDependencies>allegro_acodec-debug.lib;allegro_image.lib;allegro_main.lib;allegro_video.lib;allegro-debug.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)allegro_5.1.12_x86\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>allegro_image.lib;allegro_main.lib;allegro_video.lib;allegro-debug.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <SubSystem>Console</SubSystem>
     </Link>
     <PostBuildEvent>
