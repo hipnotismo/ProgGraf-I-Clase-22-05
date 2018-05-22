@@ -1,3 +1,5 @@
 
 ProyectClass-22-05/\.vs/
 **/bin
+**/Game/Debug
+**/Game/Release
