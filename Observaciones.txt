@@ -1,0 +1,5 @@
+El código funciona perfectamente una vez que se cambia a x86 enves de x64
+Despues de un millon de cambios innecesarios a las librerías y a la inicializacion decidi reiniciar el projecto
+Por mal manejo de mis tiempos y allegro no logre hacer nada
+Especialmente por allegro
+Ojalá el que lo creó allegro y su documentación sea estéril y la novia le diga que esta envarazada
